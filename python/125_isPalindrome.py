@@ -25,7 +25,6 @@ class Solution(object):
         # return True
         
 ## solution-2
-## solution-2
         if len(s) == 0 or len(s) == 1 or len(list(set(s).intersection(set(string.digits+string.ascii_letters)))) == 0:
             return True
         
